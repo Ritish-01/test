@@ -1,0 +1,6 @@
+live-app-backend/node_modules/
+live-app-frontend/node_modules/
+live-app-backend/.env
+live-app-backend/.DS_Store
+live-app-backend/logs
+live-app-backend/*.log
