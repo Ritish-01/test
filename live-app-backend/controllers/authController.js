@@ -40,7 +40,6 @@ const requestOtp = async (req, res) => {
 };
 const verifyOtp = async (req, res) => {
     const { email, otp, deviceId } = req.body;
-    conso
 
     if (!email || !otp || !deviceId) {
         return res.status(400).json({ message: 'Email, OTP and deviceId are required' });
